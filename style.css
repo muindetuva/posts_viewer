@@ -2,12 +2,19 @@ h1 {
   text-align: center;
 }
 
+.posts_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .post_card {
   padding: 4px 10px;
   border-radius: 10px;
   margin: 10px;
   background-color: aqua;
   box-shadow: 6px 5px 5px 0px rgba(183, 189, 219, 0.75);
+  width: 300px;
 }
 
 .title {
